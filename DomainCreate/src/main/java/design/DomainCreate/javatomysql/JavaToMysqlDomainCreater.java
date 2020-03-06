@@ -6,11 +6,8 @@ import java.lang.reflect.Field;
 import java.text.MessageFormat;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Spliterator;
 
-import javax.swing.JToolBar.Separator;
 
-import org.junit.Test;
 
 import design.DomainCreate.domain.AutoIncrement;
 import design.DomainCreate.domain.Length;
@@ -18,7 +15,6 @@ import design.DomainCreate.domain.MappingDomain;
 import design.DomainCreate.domain.MappingFieldDomain;
 import design.DomainCreate.domain.NotNull;
 import design.DomainCreate.domain.PrimaryKey;
-import design.DomainCreate.javatomysql.createdomain.TestDomain;
 import design.DomainCreate.util.FileUtil;
 import design.DomainCreate.util.MappingUtil;
 import design.DomainCreate.util.PathUtil;
@@ -26,31 +22,21 @@ import design.DomainCreate.util.StringUtil;
 
 public class JavaToMysqlDomainCreater {
 	HashMap<String, String> javatypeMysqltypeMap = new HashMap<String, String>();
-	@Test
-	public void test() throws Exception {
-		TestDomain td = new TestDomain();
-		create(td);
-	}
-	
-	public void create(Object obj){
-		init();
-		call(obj);
-	}
 
-	private void call(Object obj) {
+	public String create(Object obj) {
 		MappingDomain md = createMappingDomainByObj(obj);
-		createMysqlTableDql(md);
-		
+		String createMysqlTableDql = createMysqlTableDql(md);
+		return createMysqlTableDql;
 		
 	}
 
-	private void createMysqlTableDql(MappingDomain md) {
+	private String createMysqlTableDql(MappingDomain md) {
 		File file = new File(PathUtil.getProjectPath() + "/template/mysql_createtable_template.txt");
 		String template = FileUtil.readByFileWithEncodingWithLineBreak(file, "UTF-8");
 		String tableName = md.getMysqlTableName();
 		String tableFileds = createTableFieldsStr(md.getFieldList());
 		String createTableSql = MessageFormat.format(template, tableName, tableFileds);
-		System.out.println(createTableSql);
+		return createTableSql;
 	}
 
 	private String createTableFieldsStr(List<MappingFieldDomain> fieldList) {
@@ -148,9 +134,5 @@ public class JavaToMysqlDomainCreater {
 		}
 		
 		return mfd;
-	}
-
-	private void init() {
-		
 	}
 }

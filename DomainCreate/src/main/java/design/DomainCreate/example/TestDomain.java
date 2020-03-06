@@ -1,4 +1,4 @@
-package design.DomainCreate.javatomysql.createdomain;
+package design.DomainCreate.example;
 
 import java.sql.Date;
 
