@@ -2,10 +2,10 @@ package design.DomainCreate.example;
 
 import java.sql.Date;
 
-import design.DomainCreate.domain.AutoIncrement;
-import design.DomainCreate.domain.Length;
-import design.DomainCreate.domain.NotNull;
-import design.DomainCreate.domain.PrimaryKey;
+import design.DomainCreate.domain.annotation.AutoIncrement;
+import design.DomainCreate.domain.annotation.Length;
+import design.DomainCreate.domain.annotation.NotNull;
+import design.DomainCreate.domain.annotation.PrimaryKey;
 
 public class TestDomain {
 	@NotNull
