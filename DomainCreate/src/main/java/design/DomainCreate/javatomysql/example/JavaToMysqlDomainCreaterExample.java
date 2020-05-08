@@ -1,4 +1,4 @@
-package design.DomainCreate.example;
+package design.DomainCreate.javatomysql.example;
 
 import design.DomainCreate.javatomysql.JavaToMysqlDomainCreater;
 

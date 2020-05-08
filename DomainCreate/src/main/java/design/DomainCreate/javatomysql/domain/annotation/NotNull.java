@@ -1,4 +1,4 @@
-package design.DomainCreate.domain.annotation;
+package design.DomainCreate.javatomysql.domain.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

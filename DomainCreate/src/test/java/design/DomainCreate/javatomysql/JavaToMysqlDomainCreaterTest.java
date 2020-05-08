@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import design.DomainCreate.example.TestDomain;
+import design.DomainCreate.javatomysql.example.TestDomain;
 
 public class JavaToMysqlDomainCreaterTest {
 

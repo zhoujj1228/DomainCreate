@@ -7,12 +7,12 @@ import java.text.MessageFormat;
 import java.util.HashMap;
 import java.util.List;
 
-import design.DomainCreate.domain.MappingDomain;
-import design.DomainCreate.domain.MappingFieldDomain;
-import design.DomainCreate.domain.annotation.AutoIncrement;
-import design.DomainCreate.domain.annotation.Length;
-import design.DomainCreate.domain.annotation.NotNull;
-import design.DomainCreate.domain.annotation.PrimaryKey;
+import design.DomainCreate.javatomysql.domain.MappingDomain;
+import design.DomainCreate.javatomysql.domain.MappingFieldDomain;
+import design.DomainCreate.javatomysql.domain.annotation.AutoIncrement;
+import design.DomainCreate.javatomysql.domain.annotation.Length;
+import design.DomainCreate.javatomysql.domain.annotation.NotNull;
+import design.DomainCreate.javatomysql.domain.annotation.PrimaryKey;
 import design.DomainCreate.util.FileUtil;
 import design.DomainCreate.util.MappingUtil;
 import design.DomainCreate.util.PathUtil;
