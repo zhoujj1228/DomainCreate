@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>菜单</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<script src="./js/jquery.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+
+<style type="text/css">
+#my-menu {
+	text-align:center;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+
+	<div class=".container-fluid">
+		<div class="row">
+		<div class="col-md-2">
+				<a href="#" class="list-group-item active" id = "my-menu">菜单管理</a>
+
+				<div class=" list-group-item">
+				
+				<div class="row">
+					<button type="button" class="btn btn-primary col-md-12"
+						data-toggle="collapse" data-target="#demo">用户管理</button>
+					<div id="demo" class="collapse">
+						<button type="button" class="btn btn-primary col-md-12"
+							data-toggle="collapse" data-target="#demo1">折叠1</button>
+						<div id="demo1" class="collapse">
+							<button type="button" class="btn btn-primary col-md-12"
+								data-toggle="collapse">折叠11</button>
+							<button type="button" class="btn btn-primary col-md-12"
+								data-toggle="collapse">折叠12</button>
+							<button type="button" class="btn btn-primary col-md-12"
+								data-toggle="collapse">折叠13</button>
+						</div>
+						<button type="button" class="btn btn-primary col-md-12"
+							data-toggle="collapse">折叠2</button>
+						<button type="button" class="btn btn-primary col-md-12"
+							data-toggle="collapse">折叠3</button>
+					</div>
+				</div>
+				</div>
+				
+				
+
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
