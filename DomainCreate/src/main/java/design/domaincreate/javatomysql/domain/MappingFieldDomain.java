@@ -1,4 +1,4 @@
-package design.DomainCreate.javatomysql.domain;
+package design.domaincreate.javatomysql.domain;
 
 public class MappingFieldDomain {
 	String javaName;

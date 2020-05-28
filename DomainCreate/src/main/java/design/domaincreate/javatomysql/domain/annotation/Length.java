@@ -1,4 +1,4 @@
-package design.DomainCreate.javatomysql.domain.annotation;
+package design.domaincreate.javatomysql.domain.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -7,5 +7,7 @@ import java.lang.annotation.Target;
 
 @Retention(value = RetentionPolicy.RUNTIME)
 @Target(value = { ElementType.FIELD })
-public @interface NotNull {
+public @interface Length {
+	String value();
+
 }

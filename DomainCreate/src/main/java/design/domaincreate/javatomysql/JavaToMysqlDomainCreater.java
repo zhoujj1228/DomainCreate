@@ -1,4 +1,4 @@
-package design.DomainCreate.javatomysql;
+package design.domaincreate.javatomysql;
 
 
 import java.io.File;
@@ -7,16 +7,16 @@ import java.text.MessageFormat;
 import java.util.HashMap;
 import java.util.List;
 
-import design.DomainCreate.javatomysql.domain.MappingDomain;
-import design.DomainCreate.javatomysql.domain.MappingFieldDomain;
-import design.DomainCreate.javatomysql.domain.annotation.AutoIncrement;
-import design.DomainCreate.javatomysql.domain.annotation.Length;
-import design.DomainCreate.javatomysql.domain.annotation.NotNull;
-import design.DomainCreate.javatomysql.domain.annotation.PrimaryKey;
-import design.DomainCreate.util.FileUtil;
-import design.DomainCreate.util.MappingUtil;
-import design.DomainCreate.util.PathUtil;
-import design.DomainCreate.util.StringUtil;
+import design.domaincreate.javatomysql.domain.MappingDomain;
+import design.domaincreate.javatomysql.domain.MappingFieldDomain;
+import design.domaincreate.javatomysql.domain.annotation.AutoIncrement;
+import design.domaincreate.javatomysql.domain.annotation.Length;
+import design.domaincreate.javatomysql.domain.annotation.NotNull;
+import design.domaincreate.javatomysql.domain.annotation.PrimaryKey;
+import design.domaincreate.util.FileUtil;
+import design.domaincreate.util.MappingUtil;
+import design.domaincreate.util.PathUtil;
+import design.domaincreate.util.StringUtil;
 
 public class JavaToMysqlDomainCreater {
 	HashMap<String, String> javatypeMysqltypeMap = new HashMap<String, String>();

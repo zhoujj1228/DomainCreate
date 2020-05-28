@@ -1,11 +1,11 @@
-package design.DomainCreate.javatomysql.example;
+package design.domaincreate.javatomysql.example;
 
 import java.sql.Date;
 
-import design.DomainCreate.javatomysql.domain.annotation.AutoIncrement;
-import design.DomainCreate.javatomysql.domain.annotation.Length;
-import design.DomainCreate.javatomysql.domain.annotation.NotNull;
-import design.DomainCreate.javatomysql.domain.annotation.PrimaryKey;
+import design.domaincreate.javatomysql.domain.annotation.AutoIncrement;
+import design.domaincreate.javatomysql.domain.annotation.Length;
+import design.domaincreate.javatomysql.domain.annotation.NotNull;
+import design.domaincreate.javatomysql.domain.annotation.PrimaryKey;
 
 public class TestDomain {
 	@NotNull

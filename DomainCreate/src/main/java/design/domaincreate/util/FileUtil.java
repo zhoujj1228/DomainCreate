@@ -1,4 +1,4 @@
-package design.DomainCreate.util;
+package design.domaincreate.util;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;

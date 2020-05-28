@@ -1,4 +1,4 @@
-package design.DomainCreate.util;
+package design.domaincreate.util;
 
 
 import java.lang.reflect.Field;

@@ -1,4 +1,4 @@
-package util;
+package design.menucreate.util;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;

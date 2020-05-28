@@ -1,4 +1,4 @@
-package design.DomainCreate.util;
+package design.domaincreate.util;
 
 import static org.junit.Assert.*;
 

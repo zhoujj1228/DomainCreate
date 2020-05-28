@@ -1,6 +1,6 @@
-package design.DomainCreate.javatomysql.example;
+package design.domaincreate.javatomysql.example;
 
-import design.DomainCreate.javatomysql.JavaToMysqlDomainCreater;
+import design.domaincreate.javatomysql.JavaToMysqlDomainCreater;
 
 public class JavaToMysqlDomainCreaterExample {
 	public static void main(String[] args) {

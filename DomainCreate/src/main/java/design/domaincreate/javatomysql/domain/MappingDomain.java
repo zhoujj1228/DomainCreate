@@ -1,4 +1,4 @@
-package design.DomainCreate.javatomysql.domain;
+package design.domaincreate.javatomysql.domain;
 
 import java.util.LinkedList;
 import java.util.List;
