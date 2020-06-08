@@ -1,4 +1,4 @@
-package design.domaincreate.util;
+package design.util;
 
 import java.io.BufferedWriter;
 import java.io.File;

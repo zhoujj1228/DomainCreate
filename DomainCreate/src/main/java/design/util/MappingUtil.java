@@ -1,4 +1,4 @@
-package design.domaincreate.util;
+package design.util;
 
 public class MappingUtil {
 

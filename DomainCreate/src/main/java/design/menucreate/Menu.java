@@ -3,7 +3,7 @@ package design.menucreate;
 import java.util.ArrayList;
 import java.util.List;
 
-import design.menucreate.util.FastJsonUtil;
+import design.util.FastJsonUtil;
 
 /**
  * 菜单实体类

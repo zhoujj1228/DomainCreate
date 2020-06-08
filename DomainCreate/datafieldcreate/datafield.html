@@ -20,12 +20,11 @@
 </style>
 
 <script type="text/javascript">
-//initMenu();
+	//initMenu();
 
-$(document).ready(function(){
-	initDataField();
-});
-
+	$(document).ready(function() {
+		initDataField();
+	});
 </script>
 
 
@@ -34,13 +33,28 @@ $(document).ready(function(){
 
 <body>
 
+
+
 	<div class=".container-fluid">
 		<div class="row">
+			<div class="col-sm-3"></div>
 			<div class="col-sm-6">
-				<input type="text" class="form-control" aria-label="输入">
+				<form>
+					<div class="form-group">
+						<label for="exampleInputEmail1">姓名</label> 
+						<input type="text" class="form-control my-datafield" placeholder="输入姓名" name="person.name"> 
+					</div>
+					<div class="form-group">
+						<label for="exampleInputEmail1">手机</label> 
+						<input type="text" class="form-control my-datafield" placeholder="输入手机" name="person.mobile"> 
+					</div>
+					<button type="button" class="btn btn-primary" onclick="submitDatafield()">Submit</button>
+				</form>
+
 			</div>
+			<div class="col-sm-3"></div>
 		</div>
 	</div>
-	
+
 </body>
 </html>

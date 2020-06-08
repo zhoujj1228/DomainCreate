@@ -13,10 +13,10 @@ import design.domaincreate.javatomysql.domain.annotation.AutoIncrement;
 import design.domaincreate.javatomysql.domain.annotation.Length;
 import design.domaincreate.javatomysql.domain.annotation.NotNull;
 import design.domaincreate.javatomysql.domain.annotation.PrimaryKey;
-import design.domaincreate.util.FileUtil;
-import design.domaincreate.util.MappingUtil;
-import design.domaincreate.util.PathUtil;
-import design.domaincreate.util.StringUtil;
+import design.util.FileUtil;
+import design.util.MappingUtil;
+import design.util.PathUtil;
+import design.util.StringUtil;
 
 public class JavaToMysqlDomainCreater {
 	HashMap<String, String> javatypeMysqltypeMap = new HashMap<String, String>();

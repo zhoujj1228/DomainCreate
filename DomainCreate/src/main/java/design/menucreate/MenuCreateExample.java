@@ -1,6 +1,6 @@
 package design.menucreate;
 
-import design.menucreate.util.FastJsonUtil;
+import design.util.FastJsonUtil;
 
 /**
  * 将json字符串导入menuController.js
